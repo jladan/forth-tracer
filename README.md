@@ -14,3 +14,12 @@ It is a quite rudimentary ray tracer, handling
 - ambient light
 
 Looks like I threw in 4x4 anti-aliasing as well (according to the code).
+
+## Running
+You can run Forth using [gforth](https://www.gnu.org/software/gforth/gforth.html). Packages are included in most linux distros, and as part of Homebrew on Mac OS X.
+
+To run the program,
+
+    gforth vector.fs scene.fs tracer.fs
+    
+The rendered file is saved to `traced.ppm` (a ppm file is an easy image format to output).
