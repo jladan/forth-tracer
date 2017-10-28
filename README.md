@@ -13,7 +13,7 @@ It is a quite rudimentary ray tracer, handling
 - shadows
 - ambient light
 
-Looks like I threw in 4x4 anti-aliasing as well (according to the code).
+Looks like I threw in 4x4 anti-aliasing as well (according to the code), but I don't see it in the output.
 
 ## Running
 You can run Forth using [gforth](https://www.gnu.org/software/gforth/gforth.html). Packages are included in most linux distros, and as part of Homebrew on Mac OS X.
